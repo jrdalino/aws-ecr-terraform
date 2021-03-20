@@ -9,7 +9,7 @@
 - Include this repository as a module in your existing terraform code:
 ```
 module "aws_ecr_terraform" {
-  source = "git::https://github.com/jrdalino/aws-ecr-terraform.git?ref=master"
+  source = "git::https://github.com/jrdalino/aws-ecr-terraform.git?ref=main"
 }
 ```
 - Replace variables in state_config.tf
