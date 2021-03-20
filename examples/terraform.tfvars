@@ -5,10 +5,10 @@ aws_role    = "OrganizationAccountAccessRole"
 
 # Tagging
 namespace       = "bbsdm"
-bounded_context = "shared"
+bounded_context = "organisation"
 environment     = "production"
 
 # ECR Repository
-aws_ecr_repository_name                 = "bbsdm-shared-service"
+aws_ecr_repository_name                 = "organisation"
 aws_ecr_repository_image_tag_mutability = "MUTABLE"
 aws_ecr_repository_scan_on_push         = "false"
