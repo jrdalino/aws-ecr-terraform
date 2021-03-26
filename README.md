@@ -8,7 +8,7 @@
 - Copy the contents of /examples folder (main.tf, ouputs.tf, state_config.tf, terraform.tfvars and variabels.tf)
 - Include this repository as a module in your existing terraform code:
 ```
-module "aws_ecr_terraform" {
+module "ecr" {
   source = "git::https://github.com/jrdalino/aws-ecr-terraform.git?ref=main"
 }
 ```
